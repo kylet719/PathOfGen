@@ -2,6 +2,8 @@
 
 The game about a pathogen navigating through the human body. Play through 5 distinct mini-games and choose whether our protagnist Gen will be a good or evil virus! 
 
+🏆 1st place voted by industry panelist in CPSC 427
+
 ## Download
 https://kylet719.itch.io/path-of-gen
 
