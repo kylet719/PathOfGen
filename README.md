@@ -6,12 +6,12 @@ The game about a pathogen navigating through the human body. Play through 5 dist
 https://kylet719.itch.io/path-of-gen
 
 ## Authors
-Alvin Cheung
-Charlie Hua
-Deenah Laron
-Duy Nguyen
-Kensuke Ohara
-Kyle Tam
+- Alvin Cheung
+- Charlie Hua
+- Deenah Laron
+- Duy Nguyen
+- Kensuke Ohara
+- Kyle Tam
 
 
 
