@@ -1,87 +1,13 @@
-# Team-08: Path of Gen
+# Path of Gen
 
-Milestone 1:
+The game about a pathogen navigating through the human body. Play through 5 distinct mini-games and choose whether our protagnist Gen will be a good or evil virus! 
 
-- Implemented overworld
-- Simple avoid the virus game
+## Download
+https://kylet719.itch.io/path-of-gen
 
-Milestone 2:
-
-- Upgrade game to Escape the Virus game (Pac-man)
-- Created Minigame: Flow
-- Added tutorial screens
-- Added animated win/lose screens
-- Added music and sound effects
-
-Milestone 3:
-
-- Created Minigame: Whack-a-Virus (whack-a-mole)
-- Created Minigame: Acid Avoider
-- Created Minigame: Clear the Phlegm
-- Overhauled overworld to an organ system
-- Added a title screen
-- Added saving
-
-Creative Component 1 - #1 Simple rendering effects:
-In [Whack-a-Virus], after a certain amount of time the viruses start shaking which is done with a fragment shader that changes a uniform over time.
-
-Creative Component 2 - #8 Basic physics:
-In [Clear the Phlegm], we have elastic collisions with the (Gen) ball and the (phlegm) bricks.
-
-Creative Component 3 - #9 Complex prescribed motion:
-In [Clear the Phlegm], the motion of the oxygen molecules are determined by a quadratic Bézier curve function.
-
-Creative Component 4 - #19 Reloadability:
-The player can manually save the game at any point with "M" key. The game also auto saves after finishing a game. To reload the game in the title screen the player can select "Load Save" and the player can resume where they left off.
-Things that are being saved:
-- Current organ
-- Completed organ
-- Player position
-- Tutorial completion
-- Inventory (for future)
-
-Milestone 4:
-
-General:
-- Screen Transitions between organ systems and games
-- Movement calculation adjusted to take into account elapsed time
-
-Organs: 
-- Inventory system
-- Text for organ name
-
-MG1: Escape the Virus
-- Randomized map creation using path finding
-- Address clipping bug
-
-MG3: Acid Avoider
-- Gravity
-- Double jump feature
-- Finish line
-- Glucose collectable
-
-MG4: Whack-a-Virus
-- Iron (Fe) collectable that moves on cubic bezier curve
-
-MG5: Clear the Phlegm
-- Created new maps that are randomly chosen
-- Randomized Oxygen containing bricks
-- 2 new Power Ups (3x Multiplier, Long Paddle)
-- Particle System on brick destruction
-
-Brain:
-- After collecting the correct number of items the player can unlock the Brain
-- Final path cutscene can be chosen, either "Kill Human" and "Enlighten Human"
-
-Credits:
-- End credits roll after Final Path cutscene
+## Authors
 
 
-Creative Component - #14 Path Finding:
-In [Escape the Virus], the wall grid is generated randomly using a DFS traversal. 
-
-Creative Component - #5 Particle System:
-In [Clear the Phlegm], brick destruction is indicated with particles that appear in there place.
 
 
 ## Attributions
